@@ -52,6 +52,12 @@ export const mockDriveData: DriveItem[] = [
         size: "2.1 MB",
         url: "https://example.com/family.png",
       },
+      {
+        id: "2-3",
+        name: "MarvelPictures",
+        type: "folder",
+        size: "--",
+      },
     ],
   },
   {
@@ -80,6 +86,14 @@ export const mockDriveData: DriveItem[] = [
         type: "video",
         size: "45.2 MB",
         url: "https://example.com/tutorial.mp4",
+      },
+      {
+        id: "5-2",
+        name: "Demo.mp4",
+        type: "video",
+        size: "32.1 MB",
+        url: "https://example.com/demo.mp4",
+        //
       },
     ],
   },
